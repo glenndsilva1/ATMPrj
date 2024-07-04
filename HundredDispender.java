@@ -10,7 +10,7 @@ public class HundredDispender extends CurrencyDispenserHandler {
 			double amount = curr.getAmount();
 			double remainder = amount;
 
-			if(amount >= 1000) {
+			if(amount >= 100) {
 				int count = (int) (amount / 100);
 				remainder = amount % 100;
 				System.out.printf("Dispensing '%d' Rs.100 currency notes.\n", count);
